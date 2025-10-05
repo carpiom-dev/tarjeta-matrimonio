@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Adrián &amp; Josselyn — Invitación</title>
+  <meta name="description" content="Dios marcó nuestro camino, y en su amor hallamos el nuestro. Miércoles 14 de enero — Club de Oficiales CTE, Guayaquil.">
+  <meta property="og:title" content="Adrián &amp; Josselyn — Las marcas del amor">
+  <meta property="og:description" content="Dios marcó nuestro camino, y en su amor hallamos el nuestro.">
+  <meta property="og:image" content="img/og-hero.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <div id="preloader" class="preloader" aria-hidden="false">
+    <div class="preloader-inner">
+      <div class="heart" role="img" aria-label="corazón latiendo"></div>
+      <p>Cargando...</p>
+    </div>
+  </div>
+
+  <header class="topbar">
+    <div class="brand">Adrián &amp; Josselyn</div>
+    <a class="rsvp-link" href="#rsvp">Confirmar</a>
+  </header>
+
+  <main>
+    <section class="hero" id="hero">
+      <div class="hero-bg-wrap" aria-hidden="true">
+        <img src="img/hero.jpg" alt="Adrián &amp; Josselyn" class="hero-bg" />
+        <div class="hero-overlay"></div>
+      </div>
+      <div class="hero-content" role="region" aria-labelledby="hero-title">
+        <h1 id="hero-title" class="reveal nombres">Adrián &amp; Josselyn</h1>
+        <p class="reveal frase">“Dios marcó nuestro camino,<br>y en su amor hallamos el nuestro.”</p>
+        <div class="hero-actions reveal" aria-hidden="false">
+          <button id="btnToggleMusic" class="btn primary">⏯️ Música</button>
+          <a class="btn ghost" href="#detalles">Detalles</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="countdown" class="panel countdown" aria-label="Cuenta regresiva">
+      <h2 class="panel-title">Faltan</h2>
+      <div class="count-grid" id="countGrid">
+        <div><span id="days">--</span><small>Días</small></div>
+        <div><span id="hours">--</span><small>Horas</small></div>
+        <div><span id="minutes">--</span><small>Minutos</small></div>
+        <div><span id="seconds">--</span><small>Segundos</small></div>
+      </div>
+    </section>
+
+    <section id="detalles" class="panel details" aria-labelledby="detalles-title">
+      <h2 id="detalles-title" class="panel-title">Detalles</h2>
+      <div class="info-grid">
+        <div class="info-card"><strong>Fecha</strong><p>Miércoles 14 de enero</p></div>
+        <div class="info-card"><strong>Lugar</strong><p>Club de Oficiales de la CTE — Guayaquil</p></div>
+        <div class="info-card"><strong>Hora</strong><p>4:00 PM (Ceremonia) • 6:00 PM (Recepción)</p></div>
+        <div class="info-card"><strong>Vestimenta</strong><p>Verde olivo</p></div>
+      </div>
+    </section>
+
+    <section class="panel map" aria-label="Mapa">
+      <h2 class="panel-title">Cómo llegar</h2>
+      <div class="mapframe"><iframe src="https://www.google.com/maps?q=Club+de+Oficiales+CTE+Guayaquil&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
+
+    <section class="panel gallery" aria-labelledby="gallery-title">
+      <h2 id="gallery-title" class="panel-title">Nuestra historia</h2>
+      <div class="gallery-grid">
+        <div class="photo"><img src="img/gallery1.jpg" alt="Foto pareja"></div>
+        <div class="text"><p>Unos instantes que cuentan nuestra historia. Reemplaza estas fotos por tus favoritas para personalizar la invitación.</p></div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="panel rsvp" aria-labelledby="rsvp-title">
+      <h2 id="rsvp-title" class="panel-title">Confirma tu asistencia</h2>
+      <p>Por favor completa el formulario para ayudarnos con la organización.</p>
+      <a class="btn primary" href="https://forms.gle/your-example-form" target="_blank" rel="noopener">Confirmar asistencia</a>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Invitación digital • Verde olivo &amp; Dorado suave</p>
+  </footer>
+
+  <audio id="bgAudio" preload="auto" loop>
+    <source src="musica/cancion.mp3" type="audio/mpeg">
+    Tu navegador no soporta audio.
+  </audio>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
